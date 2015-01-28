@@ -1,0 +1,333 @@
+@import url("../fonts/baronneue/baronneue.css");
+@import "http://webfonts.ru/import/aleksandrac.css";
+@import "http://webfonts.ru/import/osans.css";
+
+html, body {
+    height: 100%;
+}
+body {
+  background: #ecf0f1;
+  font: 18px 'Open Sans',sans-serif;  
+}
+.wrapper {
+  height: auto !important;
+  min-height: 100%;
+  padding-bottom: 112px;
+  width: 100%;
+}
+.container-fluid {
+  
+}
+content .container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+h1, h2, h3 {
+  font-family: 'AleksandraC';
+}
+h1 {
+  font-size: 5rem;
+}
+a {
+  text-decoration: underline;
+}
+img {
+  width: 100%;
+}
+.v {
+  font: 70px "baron_neueregular";
+  color: #f1c40f;
+  padding: 10px 0px 30px;
+}
+.btn-mainmenu {
+  background: #f1c40f;
+  color: #252525;
+  font-size: 19px;
+  margin-top: 5px;
+  line-height: 26px;
+}
+.dropdown-menu {
+  box-shadow: 0 3px 0px rgba(0, 0, 0, 0.176);
+  font-size: 18px;
+  font-family: 'AleksandraC';
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+    background-color: #252525;
+}
+.center {
+  text-align: center;
+}
+header {
+  box-sizing: border-box;
+  color: #010101;
+  height: 100px;
+  padding: 30px 50px 0;
+}
+.logo {
+  font: 44px/30px "baron_neueregular";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.logo a {
+  color: #252525;
+}  
+.logo a:hover {
+  text-decoration: none;
+  color: #252525;
+}
+.logo a i {
+  color: #f1c40f;
+  font-style: normal;  
+}
+
+.main-nav {
+  font-family: 'AleksandraC';
+  list-style: none;
+  font-size: 22px;
+  margin-top: 6px
+}
+.main-nav li {
+  float: left;
+  padding: 3px 20px;
+}
+.main-nav li.active a{
+  text-decoration: none;
+}
+.main-nav li a {
+  color: #252525;
+  text-decoration: underline;
+}
+.main-nav li a:hover {
+  color: #2c3e50;
+  text-decoration: none;
+}
+.call {
+  font-weight: 700;
+  font-size: 50px;
+}
+.call-top {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.call-top span {
+  padding-right: 40px;
+}
+.call-top a {
+  color: #252525;
+  text-decoration: underline;
+}
+content {
+  padding-top: 30px;
+  display: block;
+}
+content.works {
+  padding-top: 0px;
+}
+content.contacts {
+  padding-top: 0px;
+}
+.workitem {
+  color: #fff;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1320px;
+  width: 90%;
+}
+.workitemdesc {
+  padding: 46px 0px 80px;
+}
+.workitemdesc h2 {
+  float: left;
+  font-family: open sans;
+  font-size: 31px;
+  font-weight: 100;
+  margin: 0 30px 0 0;
+  width: 200px;
+  letter-spacing: -1px;
+}
+.workitemdesc h2 a {
+  border-color: rgba(255, 255, 255, 0.27);
+  border-bottom: 1px solid;
+  color: #fff;
+}
+.workitemdesc h2 a:hover {
+  text-decoration: none;
+  border-bottom: none;
+}
+.workitemtext {
+  padding: 4px 345px 0 230px;
+}
+.work-tags {
+  float: right;
+  font-size: 0;
+  margin: 4px 0 0;
+  width: 290px;
+}
+.work-tag {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 1.4em;
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: normal;
+  margin: 0 10px 10px 0;
+  padding: 5px 10px;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.browser-panel {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+  border-radius: 5px 5px 0 0;
+  padding: 8px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+.browser-dots {
+  overflow: hidden;
+}
+.browser-dot {
+  border-radius: 50%;
+  float: right;
+  height: 6px;
+  margin-right: 3px;
+  width: 6px
+}
+.workitemimg img {
+  max-width: 860px;
+  display: block;
+  margin: 0 auto;
+}
+.kpv, .kpv .browser-dot {
+  background: #2ecc71;
+}
+.orenstory, .orenstory .browser-dot {
+  background: #e74c3c;
+}
+.rebuko, .rebuko .browser-dot {
+  background: #3498db;
+}
+.mia, .mia .browser-dot {
+  background: #9b59b6;
+}
+.akami, .akami .browser-dot {
+  background: #e67e22;
+}
+.contact:after  {
+  border: 4px dashed #111;
+}
+.contact {
+  background-color: #3498db;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(231,76,60,1) 35px, rgba(231,76,60,1) 70px);
+  margin: 60px auto 0;
+  padding: 15px;
+  width: 600px;
+}
+.inner-cont {
+  background: #fff;
+  padding: 80px 0px;
+}
+.contact a {
+  color: #252525;
+  text-decoration: underline;
+}
+.contact a:hover {
+  color: #f1c40f;
+  text-decoration: none;
+}
+p.adr {
+   margin: 30px 90px 10px;
+}
+.tell {
+  display: block;
+  font: 900 50px/60px "Open Sans";
+  letter-spacing: 1px;
+}
+.small-info {
+  max-width: 1240px;
+  font-size: 22px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 34px;
+  width: 90%;
+}
+@media only screen and (max-width: 768px) {
+  .small-info {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+}
+@media only screen and (max-width: 1024px) {
+  .workitemtext {
+    padding: 0px;
+    width: 100%;
+    margin-top: 80px;
+  }
+  .workitemdesc {
+    padding: 46px 0 30px;
+  }
+  .work-tags {
+    font-size: 0;
+    margin: 30px 0 0;
+    width: 100%;
+  }
+  .workitemdesc h2 {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .contact {
+    width: 100%;
+    margin: 0;
+  }
+  .v {
+    color: #f1c40f;
+    font: 50px "baron_neueregular";
+    padding: 0 0 15px;
+    }
+  
+}
+@media only screen and (max-width: 1045px) {
+   .call-top span {
+    padding-right: 17px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .tell {
+    display: block;
+    font: 900 30px/15px "Open Sans";
+    letter-spacing: 1px;
+  }
+  p.adr {
+    margin: 30px 30px 10px;
+  }
+  
+}
+.char-main {
+  text-align: center;
+}
+.char-main img {
+  max-width: 1276px;
+}
+.pol {
+  background: #7f8c8d;
+  height: 100px;
+  margin-top: -90px;
+}
+footer {
+  background: #7f8c8d;
+  color: white;
+  font: 16px 'Open Sans';
+  padding: 30px 50px;
+  margin-top: -112px;
+  height: 112px;
+}
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
