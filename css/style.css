@@ -304,7 +304,7 @@ p.adr {
   }
   
 }
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 644px) {
    .cd-headline.slide .cd-words-wrapper {
      text-align: center;
    }
